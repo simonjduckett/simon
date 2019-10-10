@@ -1,0 +1,80 @@
+export default {
+    "projects": [
+        {
+            "web": [
+                {
+                    "name": "London Dentistry Show",
+                    "tech": "wordpress",
+                    "type": "Website",
+                    "img": require('./assets/images/lds.png'),
+                    "link": "https://www.londondentistryshow.co.uk/"
+                },
+                {
+                    "name": "Artist Template",
+                    "tech": "php",
+                    "type": "Website",
+                    "img": "/images/artistbox.png",
+                    "link": "https://www.simonduckett.com/Artist/"
+                },
+                {
+                    "name": "Ai drone",
+                    "tech": "wordpress",
+                    "type": "Website",
+                    "img": "/images/IMG_1485.JPG",
+                    "link": "https://aidronebeats.com/"
+                },
+                {
+                    "name": "Simon's store",
+                    "tech": "React.js",
+                    "type": "Web app",
+                    "img": "/images/simonsbox.png",
+                    "link": "https://simonjduckett.github.io/simons-store/"
+                },
+                {
+                    "name": "Katy's Dance Academy",
+                    "tech": "wordpress",
+                    "type": "Website",
+                    "img": "/images/dance.png",
+                    "link": "https://www.katysdanceacademy.co.uk/"
+                },
+                {
+                    "name": "Mystery Box 3",
+                    "tech": "Javascript",
+                    "type": "Video game",
+                    "img": "/images/mystery.png",
+                    "link": "https://www.simonduckett.com/Mystery/"
+                },
+                {
+                    "name": "Simon Guitar",
+                    "tech": "php",
+                    "type": "Web app",
+                    "img": "/images/simonguitarbox.png",
+                    "link": "https://www.simonguitar.co.uk/"
+                }
+            ],
+            "music": [
+                {
+                    "name": "Follow my lead",
+                    "tech": "Music",
+                    "type": "broken beat",
+                    "img": "/images/follow.jpg",
+                    "link": "https://duckett.bandcamp.com/album/follow-my-lead"
+                },
+                {
+                    "name": "Parade",
+                    "tech": "Music",
+                    "type": "footwork",
+                    "img": "/images/parade.jpg",
+                    "link": "https://duckett.bandcamp.com/album/parade"
+                },
+                {
+                    "name": "Responsible Use Of Synthesizers EP",
+                    "tech": "Ground Mass Music",
+                    "type": "footwork",
+                    "img": "/images/ruos.jpg",
+                    "link": "https://groundmassmusic.bandcamp.com/album/responsible-use-of-synthesizers-ep"
+                }
+            ]
+        }
+    ]
+}

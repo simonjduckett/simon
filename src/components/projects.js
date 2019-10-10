@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import { Projecttable } from './project-table';
-import data from '../data.json';
+import data from '../data.js';
 
 export class Projects extends Component {
 
