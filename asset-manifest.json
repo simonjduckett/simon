@@ -1,15 +1,16 @@
 {
-  "main.css": "/simon/static/css/main.98b46c61.chunk.css",
-  "main.js": "/simon/static/js/main.8da11151.chunk.js",
-  "main.js.map": "/simon/static/js/main.8da11151.chunk.js.map",
+  "main.css": "/simon/static/css/main.e60bd395.chunk.css",
+  "main.js": "/simon/static/js/main.6eb32013.chunk.js",
+  "main.js.map": "/simon/static/js/main.6eb32013.chunk.js.map",
   "runtime~main.js": "/simon/static/js/runtime~main.5c164bc7.js",
   "runtime~main.js.map": "/simon/static/js/runtime~main.5c164bc7.js.map",
   "static/css/2.3072dd8f.chunk.css": "/simon/static/css/2.3072dd8f.chunk.css",
-  "static/js/2.84845d73.chunk.js": "/simon/static/js/2.84845d73.chunk.js",
-  "static/js/2.84845d73.chunk.js.map": "/simon/static/js/2.84845d73.chunk.js.map",
+  "static/js/2.baed3092.chunk.js": "/simon/static/js/2.baed3092.chunk.js",
+  "static/js/2.baed3092.chunk.js.map": "/simon/static/js/2.baed3092.chunk.js.map",
   "index.html": "/simon/index.html",
-  "precache-manifest.3fc61555083a57508ccdf04801ba9e8b.js": "/simon/precache-manifest.3fc61555083a57508ccdf04801ba9e8b.js",
+  "precache-manifest.d2692f2ce207e5e6a1953214861a9486.js": "/simon/precache-manifest.d2692f2ce207e5e6a1953214861a9486.js",
   "service-worker.js": "/simon/service-worker.js",
   "static/css/2.3072dd8f.chunk.css.map": "/simon/static/css/2.3072dd8f.chunk.css.map",
-  "static/css/main.98b46c61.chunk.css.map": "/simon/static/css/main.98b46c61.chunk.css.map"
+  "static/css/main.e60bd395.chunk.css.map": "/simon/static/css/main.e60bd395.chunk.css.map",
+  "static/media/style.css": "/simon/static/media/beach.be42c2ca.jpg"
 }
