@@ -9,7 +9,7 @@ gulp.task('sass', function (done) {
     gulp.src('src/scss/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(minify())
-        .pipe(gulp.dest('public/css'));
+        .pipe(gulp.dest('src/assets/css'));
     done();
 });
 

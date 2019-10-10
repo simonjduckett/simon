@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './assets/css/style.css';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
