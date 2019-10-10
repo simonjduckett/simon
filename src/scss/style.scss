@@ -1,0 +1,16 @@
+@import 'fonts/fonts.scss';
+@import 'global/mixins.scss';
+@import 'global/general.scss';
+
+//layout
+@import 'layout/header';
+
+
+// Components
+@import 'components/topbar';
+@import 'components/menu';
+@import 'components/projects';
+@import 'components/project-nav';
+@import 'components/intro-text';
+@import 'components/mini-nav';
+@import 'components/social';
