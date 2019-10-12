@@ -14,7 +14,7 @@ export default {
                     "tech": "php",
                     "type": "Website",
                     "img": require('./assets/images/artistbox.png'),
-                    "link": "https://www.simonduckett.com/Artist/"
+                    "link": "https://www.simonguitar.co.uk/Artist/"
                 },
                 {
                     "name": "Ai drone",
@@ -42,7 +42,7 @@ export default {
                     "tech": "Javascript",
                     "type": "Video game",
                     "img": require('./assets/images/mystery.png'),
-                    "link": "https://www.simonduckett.com/Mystery/"
+                    "link": "https://simonjduckett.github.io/Mystery-Box-3/"
                 },
                 {
                     "name": "Simon Guitar",
