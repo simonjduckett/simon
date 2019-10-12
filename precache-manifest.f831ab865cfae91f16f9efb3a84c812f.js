@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/ruos.b74ec750.jpg"
   },
   {
-    "revision": "7fd6837fdc714b79042142807678f5fd",
+    "revision": "9e21831d31e762b704512f9936185f0c",
     "url": "/index.html"
   }
 ];
