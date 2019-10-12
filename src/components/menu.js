@@ -29,7 +29,7 @@ export const Menu = (props) => {
                     </div>
                     <div className='col-md'>
                         <span>Email</span><br />
-                        <p><a href='mailto:simonjduckett@hotmail.co.uk'>simon@simonduckett.com</a></p>
+                        <p><a href='mailto:simonjduckett@hotmail.co.uk'>simonjduckett@hotmail.com</a></p>
                         
                     </div>
                 </div>
