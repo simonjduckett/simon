@@ -54,6 +54,13 @@
             ],
             "music": [
                 {
+                    "name": "Ai drone",
+                    "tech": "HipHop/Pop instrumentals beat store",
+                    "type": "HipHop/Pop",
+                    "img": "/images/IMG_1485.JPG",
+                    "link": "https://aidronebeats.com/"
+                },
+                {
                     "name": "Follow my lead",
                     "tech": "Music",
                     "type": "broken beat",
