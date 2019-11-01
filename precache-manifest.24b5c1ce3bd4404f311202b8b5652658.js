@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9076348a60518d523c21",
+    "revision": "ce7e3e080f2f013a1764",
     "url": "/static/css/main.db367afd.chunk.css"
   },
   {
-    "revision": "9076348a60518d523c21",
-    "url": "/static/js/main.9076348a.chunk.js"
+    "revision": "ce7e3e080f2f013a1764",
+    "url": "/static/js/main.ce7e3e08.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "/static/js/2.6f240e03.chunk.js"
   },
   {
-    "revision": "46a0b7464e6186af6971adff3c489778",
-    "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
-  },
-  {
     "revision": "d74d87dd165fc5d52722f8357738a03d",
     "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
   },
@@ -32,16 +28,20 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
   },
   {
+    "revision": "46a0b7464e6186af6971adff3c489778",
+    "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
+  },
+  {
     "revision": "b74a2a12db3ab095c0dafae433251e61",
     "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
-    "revision": "c5833b37f54a60b621af207ee1748141",
-    "url": "/static/media/Gravity-Regular.c5833b37.otf"
-  },
-  {
     "revision": "81cc224b6c5f572604d31566fbab6c0a",
     "url": "/static/media/Gravity-Bold.81cc224b.otf"
+  },
+  {
+    "revision": "c5833b37f54a60b621af207ee1748141",
+    "url": "/static/media/Gravity-Regular.c5833b37.otf"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/ruos.b74ec750.jpg"
   },
   {
-    "revision": "c74727ac03f057f9a8aff5fbd1adddce",
+    "revision": "4116f213bde324c587bb1224ec50735e",
     "url": "/index.html"
   }
 ];
