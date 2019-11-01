@@ -3,11 +3,18 @@ export default {
         {
             "web": [
                 {
-                    "name": "London Dentistry Show",
+                    "name": "Ai drone",
                     "tech": "wordpress",
                     "type": "Website",
-                    "img": require('./assets/images/lds.png'),
-                    "link": "https://www.londondentistryshow.co.uk/"
+                    "img": require('./assets/images/IMG_1485.JPG'),
+                    "link": "https://aidronebeats.com/"
+                },
+                {
+                    "name": "Timetable generator",
+                    "tech": "React",
+                    "type": "Web app",
+                    "img": require('./assets/images/timetable.png'),
+                    "link": "https://codesandbox.io/s/423ljr9v70"
                 },
                 {
                     "name": "Artist Template",
@@ -15,13 +22,6 @@ export default {
                     "type": "Website",
                     "img": require('./assets/images/artistbox.png'),
                     "link": "https://www.simonguitar.co.uk/Artist/"
-                },
-                {
-                    "name": "Ai drone",
-                    "tech": "wordpress",
-                    "type": "Website",
-                    "img": require('./assets/images/IMG_1485.JPG'),
-                    "link": "https://aidronebeats.com/"
                 },
                 {
                     "name": "Simon's store",
@@ -51,6 +51,7 @@ export default {
                     "img": require('./assets/images/simonguitarbox.png'),
                     "link": "https://www.simonguitar.co.uk/"
                 }
+                
             ],
             "music": [
                 {
