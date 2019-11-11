@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "41d3194576148258dbaa",
+    "revision": "2af57d042b53d588249d",
     "url": "/static/css/main.db367afd.chunk.css"
   },
   {
-    "revision": "41d3194576148258dbaa",
-    "url": "/static/js/main.41d31945.chunk.js"
+    "revision": "2af57d042b53d588249d",
+    "url": "/static/js/main.2af57d04.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "/static/js/2.6f240e03.chunk.js"
   },
   {
+    "revision": "d74d87dd165fc5d52722f8357738a03d",
+    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
+  },
+  {
     "revision": "46a0b7464e6186af6971adff3c489778",
     "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
   },
@@ -28,20 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
   },
   {
-    "revision": "b74a2a12db3ab095c0dafae433251e61",
-    "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
+    "revision": "c5833b37f54a60b621af207ee1748141",
+    "url": "/static/media/Gravity-Regular.c5833b37.otf"
   },
   {
     "revision": "81cc224b6c5f572604d31566fbab6c0a",
     "url": "/static/media/Gravity-Bold.81cc224b.otf"
   },
   {
-    "revision": "c5833b37f54a60b621af207ee1748141",
-    "url": "/static/media/Gravity-Regular.c5833b37.otf"
-  },
-  {
-    "revision": "d74d87dd165fc5d52722f8357738a03d",
-    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
+    "revision": "b74a2a12db3ab095c0dafae433251e61",
+    "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/ruos.b74ec750.jpg"
   },
   {
-    "revision": "26620e0b19ab3d1bdf3ae06ff648603e",
+    "revision": "5546ac4c584ec736e5fa2f25abef3190",
     "url": "/index.html"
   }
 ];
