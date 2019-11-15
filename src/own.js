@@ -41,9 +41,10 @@ export default {
                 'J. R. R. Tolkien - lord of the rings'
             ],
             "playstation_4": [
-                'red dead redemption',
+                'red dead redemption 2',
                 'tekken 7',
-                'star wars battlefront'
+                'star wars battlefront',
+                'Call of duty Modern Warfare - 2019'
             ]
         }
     ]

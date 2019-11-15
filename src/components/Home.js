@@ -31,6 +31,7 @@ export class Home extends Component {
         }
         else {
             document.getElementById('introtextcontainer').style.width = '50%';
+            document.getElementById('introtextcontainer').style.height = '100vh';
             document.getElementById('hero-image').style.width = '50%';
         }
         document.getElementById('hero-image').style.backgroundPosition = '0px 100px';
