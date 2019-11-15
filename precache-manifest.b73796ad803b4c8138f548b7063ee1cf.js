@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cef8624624d87607b4a4",
-    "url": "/static/css/main.50557a3f.chunk.css"
+    "revision": "48061f55a89e032fa189",
+    "url": "/static/css/main.c00707f6.chunk.css"
   },
   {
-    "revision": "cef8624624d87607b4a4",
-    "url": "/static/js/main.cef86246.chunk.js"
+    "revision": "48061f55a89e032fa189",
+    "url": "/static/js/main.48061f55.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,28 +20,28 @@ self.__precacheManifest = [
     "url": "/static/js/2.6f240e03.chunk.js"
   },
   {
-    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
-    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
+    "revision": "d74d87dd165fc5d52722f8357738a03d",
+    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
   },
   {
     "revision": "46a0b7464e6186af6971adff3c489778",
     "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
   },
   {
+    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
+    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
+  },
+  {
     "revision": "b74a2a12db3ab095c0dafae433251e61",
     "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
-    "revision": "81cc224b6c5f572604d31566fbab6c0a",
-    "url": "/static/media/Gravity-Bold.81cc224b.otf"
-  },
-  {
-    "revision": "d74d87dd165fc5d52722f8357738a03d",
-    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
-  },
-  {
     "revision": "c5833b37f54a60b621af207ee1748141",
     "url": "/static/media/Gravity-Regular.c5833b37.otf"
+  },
+  {
+    "revision": "81cc224b6c5f572604d31566fbab6c0a",
+    "url": "/static/media/Gravity-Bold.81cc224b.otf"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/ruos.b74ec750.jpg"
   },
   {
-    "revision": "d1e231498d3b95fdc8dae62b8db94fd2",
+    "revision": "99db97c86df75da58a34c2da4acb91d7",
     "url": "/index.html"
   }
 ];
