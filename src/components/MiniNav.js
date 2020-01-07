@@ -7,13 +7,14 @@ const MiniNav = () => {
             <Link
                 className='mini-nav-link'
                 to={'/projects/web'}
-                >Web
+                >Projects
             </Link>
-            <Link
+            <a
                 className='mini-nav-link'
-                to={'/projects/music'}
-            >Music
-            </Link>
+                href='https://github.com/simonjduckett/simon'
+                target='_blank'
+            >Site Code
+            </a>
         </div>
     )
 }

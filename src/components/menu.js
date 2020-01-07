@@ -20,6 +20,13 @@ export const Menu = (props) => {
                                 to={'/projects/web'}
                                 onClick={props.toggleMenu}>Projects
                             </Link>
+                            <br />
+                            <Link
+                                className='menu-link'
+                                to={'/about'}
+                                onClick={props.toggleMenu}
+                            >About
+                            </Link>
                         </p>
                     </div>
                     <div className='col-md'>

@@ -10,8 +10,7 @@ import 'aos/dist/aos.css';
 //import Rellax from 'rellax';
 import { Menu } from './components/menu';
 import { Projects } from './components/projects';
-import { Xmas } from './components/xmas';
-import { Own } from './components/own';
+import { About } from './components/About';
 import { PageNotFound } from './components/PageNotFound';
 
 class App extends Component {
@@ -55,8 +54,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} x={x} /> }} />
             <Route path='/projects' render={() => { return <Projects /> }} />
-            <Route path='/xmas' render={() => { return <Xmas /> }} />
-            <Route path='/own' render={() => { return <Own /> }} />
+            <Route path='/about' render={() => { return <About /> }} />
             <Route component={PageNotFound} />
           </Switch>
         </HashRouter>

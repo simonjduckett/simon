@@ -28,10 +28,12 @@ export class Home extends Component {
             document.getElementById('hero-image').style.height = '200px';
             document.getElementById('introtextcontainer').style.width = '100%';
             document.getElementById('hero-image').style.width = '100%';
+            document.getElementById('introtextcontainer').style.padding = '50px';
         }
         else {
             document.getElementById('introtextcontainer').style.width = '50%';
             document.getElementById('introtextcontainer').style.height = '100vh';
+            document.getElementById('introtextcontainer').style.padding = '50px';
             document.getElementById('hero-image').style.width = '50%';
         }
         document.getElementById('hero-image').style.backgroundPosition = '0px 100px';

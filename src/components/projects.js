@@ -13,6 +13,7 @@ export class Projects extends Component {
     render() {
         let web = data.projects[0].web.length
         let music = data.projects[0].music.length
+        let education = data.projects[0].education.length
         return (
             <div id='projects' className='padding-top'>
                     <div className='container-fluid'>
@@ -28,9 +29,15 @@ export class Projects extends Component {
                             className='proj-menu-link' 
                             to={'/projects/music'}>Music ({music})
                         </NavLink>
+                        <NavLink
+                            activeClassName='activeNavLink'
+                            className='proj-menu-link'
+                            to={'/projects/education'}>Education ({education})
+                        </NavLink>
                             <hr />
                             <Route path='/projects/web' render={() => { return <Projecttable data={data.projects[0].web} /> }} />
                             <Route path='/projects/music' render={() => { return <Projecttable data={data.projects[0].music} /> }} />
+                            <Route path='/projects/education' render={() => { return <Projecttable data={data.projects[0].education} /> }} />
                         </div>
                     </div>
             </div>

@@ -1,4 +1,6 @@
+@import 'global/vars.scss';
 @import 'fonts/fonts.scss';
+@import 'fonts/icons.scss';
 @import 'global/mixins.scss';
 @import 'global/general.scss';
 
@@ -14,3 +16,4 @@
 @import 'components/intro-text';
 @import 'components/mini-nav';
 @import 'components/social';
+@import 'components/about';
