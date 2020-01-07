@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "fcd6a3e66bcc81774fc2",
+    "revision": "32b6c5b379c2aa312b8e",
     "url": "/static/css/main.cd75c39d.chunk.css"
   },
   {
-    "revision": "fcd6a3e66bcc81774fc2",
-    "url": "/static/js/main.fcd6a3e6.chunk.js"
+    "revision": "32b6c5b379c2aa312b8e",
+    "url": "/static/js/main.32b6c5b3.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "cbe3a085a8db96a3a464",
+    "revision": "5488873445ae663be46e",
     "url": "/static/css/2.3072dd8f.chunk.css"
   },
   {
-    "revision": "cbe3a085a8db96a3a464",
-    "url": "/static/js/2.cbe3a085.chunk.js"
+    "revision": "5488873445ae663be46e",
+    "url": "/static/js/2.54888734.chunk.js"
   },
   {
     "revision": "d74d87dd165fc5d52722f8357738a03d",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
-    "revision": "c5833b37f54a60b621af207ee1748141",
-    "url": "/static/media/Gravity-Regular.c5833b37.otf"
-  },
-  {
     "revision": "81cc224b6c5f572604d31566fbab6c0a",
     "url": "/static/media/Gravity-Bold.81cc224b.otf"
+  },
+  {
+    "revision": "c5833b37f54a60b621af207ee1748141",
+    "url": "/static/media/Gravity-Regular.c5833b37.otf"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/simonguitarbox.e93717bb.png"
   },
   {
-    "revision": "26f4a670c19faccdb54b295c2d2116cd",
+    "revision": "20ada8152fddb312756634ff9aa6ca23",
     "url": "/index.html"
   }
 ];
