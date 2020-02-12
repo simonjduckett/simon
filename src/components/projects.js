@@ -24,7 +24,7 @@ export class Projects extends Component {
                             className='proj-menu-link' 
                             to={'/projects/web'}>Web ({web})
                         </NavLink>
-                        <NavLink 
+                        {/* <NavLink 
                             activeClassName='activeNavLink' 
                             className='proj-menu-link' 
                             to={'/projects/music'}>Music ({music})
@@ -33,7 +33,7 @@ export class Projects extends Component {
                             activeClassName='activeNavLink'
                             className='proj-menu-link'
                             to={'/projects/education'}>Education ({education})
-                        </NavLink>
+                        </NavLink> */}
                             <hr />
                             <Route path='/projects/web' render={() => { return <Projecttable data={data.projects[0].web} /> }} />
                             <Route path='/projects/music' render={() => { return <Projecttable data={data.projects[0].music} /> }} />

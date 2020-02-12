@@ -54,7 +54,6 @@ export class Home extends Component {
                             <h1>Hi, I'm Simon</h1>
                             <p>Click to enter.</p>
                         </div>
-                        
                     </div>
                     <div id='introtextcontainer'>
                         <IntroText />

@@ -3,11 +3,11 @@ export default {
         {
             "web": [
                 {
-                    "name": "Timetable generator",
-                    "description": "App to generate student timetables",
-                    "type": 'react',
-                    "img": require('./assets/images/timetable.png'),
-                    "link": "https://codesandbox.io/s/423ljr9v70"
+                    "name": "Simon's store",
+                    "description": "Front end for a clothing store",
+                    "type": "react",
+                    "img": require('./assets/images/simonsbox.png'),
+                    "link": "https://simonjduckett.github.io/simons-store/"
                 },
                 {
                     "name": "Mystery Box 3",
@@ -24,11 +24,11 @@ export default {
                     "link": "https://www.simonguitar.co.uk/Artist/"
                 },
                 {
-                    "name": "Simon's store",
-                    "description": "Front end for a clothing store",
-                    "type": "react",
-                    "img": require('./assets/images/simonsbox.png'),
-                    "link": "https://simonjduckett.github.io/simons-store/"
+                    "name": "Timetable generator",
+                    "description": "App to generate student timetables",
+                    "type": 'react',
+                    "img": require('./assets/images/timetable.png'),
+                    "link": "https://codesandbox.io/s/423ljr9v70"
                 },
                 {
                     "name": "Katy's Dance Academy",

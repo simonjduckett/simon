@@ -6,7 +6,7 @@ export const About = () => {
             <div className='container'>
                 <div className='about-text'>
                     <h1>About</h1>
-                    <p>My name is Simon. I'm a guitarist and web developer. I work on a variety of projects that include songriting/producing, building web apps and teaching.</p>
+                    <p>My name is Simon. I'm a web developer and creator. I like to build fast responsive user experiences.</p>
                     <h3>Certs</h3>
                     <ul>
                         <li>Micosoft Cert: Programming in HTML5 with JavaScript and CSS3</li>
@@ -28,7 +28,7 @@ export const About = () => {
                         <li>git</li>
                         <li>mac pro</li>
                     </ul>
-                    <p><strong>Music</strong></p>
+                    {/* <p><strong>Music</strong></p>
                     <ul>
                         <li>Pre sonus: Studio one</li>
                         <li>plugins: waves, komplete, pre-sonus</li>
@@ -40,7 +40,7 @@ export const About = () => {
                         <li>Boss, MXR, Electro Harmonix guitar pedals.</li>
                         <li>Dave Smith Prophet 08</li>
                         <li>Roland JU06</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 
             </div>
