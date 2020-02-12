@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/simonguitarbox.e93717bb.png"
   },
   {
-    "revision": "7009f518c53c24f788b313b38a57626c",
+    "revision": "598fb590e8c3c37ed5c4baee9bea3a9b",
     "url": "/index.html"
   }
 ];
