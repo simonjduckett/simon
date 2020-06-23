@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "93e3668560b194fa1d8f",
+    "revision": "36f7da5b3b1ee83a097b",
     "url": "/static/css/main.cd75c39d.chunk.css"
   },
   {
-    "revision": "93e3668560b194fa1d8f",
-    "url": "/static/js/main.93e36685.chunk.js"
+    "revision": "36f7da5b3b1ee83a097b",
+    "url": "/static/js/main.36f7da5b.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -28,16 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
   },
   {
-    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
-    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
-  },
-  {
     "revision": "46a0b7464e6186af6971adff3c489778",
     "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
   },
   {
-    "revision": "b74a2a12db3ab095c0dafae433251e61",
-    "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
+    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
+    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
   },
   {
     "revision": "81cc224b6c5f572604d31566fbab6c0a",
@@ -46,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "c5833b37f54a60b621af207ee1748141",
     "url": "/static/media/Gravity-Regular.c5833b37.otf"
+  },
+  {
+    "revision": "b74a2a12db3ab095c0dafae433251e61",
+    "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/simonguitarbox.e93717bb.png"
   },
   {
-    "revision": "9628a830da08fa85ec6f3c3517999d4b",
+    "revision": "3b9570908673ccfa4dfbc233bfc56603",
     "url": "/index.html"
   }
 ];
