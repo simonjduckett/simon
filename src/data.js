@@ -23,13 +23,13 @@ export default {
                     "img": require('./assets/images/artistbox.png'),
                     "link": "https://www.simonguitar.co.uk/Artist/"
                 },
-                {
-                    "name": "Timetable generator",
-                    "description": "App to generate student timetables",
-                    "type": 'react',
-                    "img": require('./assets/images/timetable.png'),
-                    "link": "https://codesandbox.io/s/423ljr9v70"
-                },
+                // {
+                //     "name": "Timetable generator",
+                //     "description": "App to generate student timetables",
+                //     "type": 'react',
+                //     "img": require('./assets/images/timetable.png'),
+                //     "link": "https://codesandbox.io/s/423ljr9v70"
+                // },
                 {
                     "name": "Katy's Dance Academy",
                     "description": "Website for local dance school",
