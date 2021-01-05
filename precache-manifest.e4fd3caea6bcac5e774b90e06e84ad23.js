@@ -1,47 +1,55 @@
 self.__precacheManifest = [
   {
-    "revision": "0908fe7df31882a7ac97",
-    "url": "/static/css/main.41628fa0.chunk.css"
+    "revision": "d74d87dd165fc5d52722f8357738a03d",
+    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
   },
   {
-    "revision": "0908fe7df31882a7ac97",
-    "url": "/static/js/main.0908fe7d.chunk.js"
+    "revision": "3a3807288ec91eefed3f",
+    "url": "/static/css/main.07149ac7.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "715ca1109d4839ea88c7",
-    "url": "/static/css/2.651d1239.chunk.css"
+    "revision": "e93717bb56f0a11437c92e539f721860",
+    "url": "/static/media/simonguitarbox.e93717bb.png"
   },
   {
-    "revision": "715ca1109d4839ea88c7",
-    "url": "/static/js/2.715ca110.chunk.js"
+    "revision": "4a1d89709d493803f5cb",
+    "url": "/static/js/2.4a1d8970.chunk.js"
   },
   {
-    "revision": "81cc224b6c5f572604d31566fbab6c0a",
-    "url": "/static/media/Gravity-Bold.81cc224b.otf"
+    "revision": "1d4d107c7a9bd0847c7c0fdfa1aa5a83",
+    "url": "/static/media/logo-black.1d4d107c.png"
   },
   {
-    "revision": "d74d87dd165fc5d52722f8357738a03d",
-    "url": "/static/media/AvenirLTStd-Black.d74d87dd.woff"
-  },
-  {
-    "revision": "c5833b37f54a60b621af207ee1748141",
-    "url": "/static/media/Gravity-Regular.c5833b37.otf"
+    "revision": "121e57975e778b233d4156b3365761ca",
+    "url": "/static/media/logo-white.121e5797.png"
   },
   {
     "revision": "46a0b7464e6186af6971adff3c489778",
     "url": "/static/media/AvenirLTStd-Book.46a0b746.woff"
   },
   {
+    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
+    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
+  },
+  {
     "revision": "b74a2a12db3ab095c0dafae433251e61",
     "url": "/static/media/AkkuratPro-Regular.b74a2a12.woff"
   },
   {
-    "revision": "b997fee54ed6b4a9d397dcaee5b08bbb",
-    "url": "/static/media/AvenirLTStd-Heavy.b997fee5.woff"
+    "revision": "c5833b37f54a60b621af207ee1748141",
+    "url": "/static/media/Gravity-Regular.c5833b37.otf"
+  },
+  {
+    "revision": "81cc224b6c5f572604d31566fbab6c0a",
+    "url": "/static/media/Gravity-Bold.81cc224b.otf"
+  },
+  {
+    "revision": "3a3807288ec91eefed3f",
+    "url": "/static/js/main.3a380728.chunk.js"
   },
   {
     "revision": "816b4ced446e252f881b78196a3f914c",
@@ -80,11 +88,11 @@ self.__precacheManifest = [
     "url": "/static/media/ruos.b74ec750.jpg"
   },
   {
-    "revision": "e93717bb56f0a11437c92e539f721860",
-    "url": "/static/media/simonguitarbox.e93717bb.png"
+    "revision": "4a1d89709d493803f5cb",
+    "url": "/static/css/2.474a329f.chunk.css"
   },
   {
-    "revision": "8ac8fb61c596ee63b0c901aec8cb8c64",
+    "revision": "f39a2e0dcc16161c487c8abf2872a983",
     "url": "/index.html"
   }
 ];
