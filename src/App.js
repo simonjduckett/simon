@@ -45,14 +45,14 @@ class App extends Component {
   }
 
   render() {
-    var x = window.matchMedia("(max-width: 600px)")
+    var mobile = window.matchMedia("(max-width: 600px)")
     return (
       <div className="App">
         <HashRouter>
           <Topbar toggleMenu={this.toggleMenu} />
           <Menu toggleMenu={this.toggleMenu} />
           <Switch>
-            <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} x={x} /> }} />
+            <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} mobile={mobile} /> }} />
             <Route path='/projects' render={() => { return <Projects /> }} />
             <Route path='/about' render={() => { return <About /> }} />
             <Route component={PageNotFound} />

@@ -2,7 +2,7 @@
 @import 'fonts/fonts.scss';
 @import 'fonts/icons.scss';
 @import 'global/mixins.scss';
-@import 'global/general.scss';
+
 
 //layout
 @import 'layout/header';
@@ -10,6 +10,7 @@
 
 // Components
 @import 'components/topbar';
+@import 'global/general.scss';
 @import 'components/menu';
 @import 'components/projects';
 @import 'components/project-nav';

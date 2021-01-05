@@ -6,8 +6,8 @@ import data from '../data.js';
 export class Projects extends Component {
 
     componentDidMount() {
-        document.getElementById('topbar').style.visibility = 'visible';
-        document.getElementById('topbar').style.opacity = '1';
+        // document.getElementById('topbar').style.visibility = 'visible';
+        // document.getElementById('topbar').style.opacity = '1';
     }
 
     render() {

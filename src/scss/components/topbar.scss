@@ -13,6 +13,10 @@
     .brand {
         float: left;
     }
+    .logo {
+        opacity: 0 !important;
+        transition-duration: .5s !important;
+    }
     .menu {
         float: right;
         font-size: 20px;
