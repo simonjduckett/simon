@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/style.css';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import { Topbar } from './components/topbar';
 import { Home } from './components/Home';
@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div className="App">
         <HashRouter>
-          <Topbar toggleMenu={this.toggleMenu} />
+          <Topbar toggleMenu={this.toggleMenu} firstload={this.state.firstload} />
           <Menu toggleMenu={this.toggleMenu} />
           <Switch>
             <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} mobile={mobile} /> }} />

@@ -9,12 +9,12 @@ const MiniNav = () => {
                 to={'/projects/web'}
                 >Projects
             </Link>
-            <a
+            {/* <a
                 className='mini-nav-link'
                 href='https://github.com/simonjduckett/simon'
                 target='_blank'
             >Site Code
-            </a>
+            </a> */}
         </div>
     )
 }

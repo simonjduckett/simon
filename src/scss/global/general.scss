@@ -50,7 +50,7 @@ a {
 }
 
 .hero-mob-move {
-    float: none;
-    height: 200px;
-    width: 100%;
+    float: none !important;
+    height: 200px !important;
+    width: 100% !important;
 }

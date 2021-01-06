@@ -20,15 +20,23 @@ export const Topbar = (props) => {
     window.addEventListener("scroll", fadeNav);
 
     const logostyles = {
-    opacity: '0',
-    transitionDuration: '.5s'
-}
+        opacity: '0',
+        transitionDuration: '.5s'
+    }
+
+    const removeit = () => {
+        if(props.firstload) {
+            let x = document.getElementById('topbar');
+            x.classList.remove('opacity-1');
+        }
+        
+    }
     
 
     return (
         <div id='topbar'>
             <div className='container'>
-                <span id='logo' className='brand opacity-1' style={logostyles}><Link className='light' to={'/'}><img width='160' src={LogoBlack} /></Link></span>
+                <span id='logo' className='brand opacity-1' style={logostyles} onClick={removeit}><Link className='light' to={'/'}><img width='160' src={LogoBlack} /></Link></span>
                 <div className='menu'>
                     <span id='ham' onClick={props.toggleMenu}>
                         <div className='bar1'></div>

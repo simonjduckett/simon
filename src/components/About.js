@@ -1,49 +1,88 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 export const About = () => {
+
+    useEffect(() => {
+        let x = document.getElementById('topbar');
+        x.classList.add('opacity-1');
+    }, [])
+
     return (
         <section align='left' id='about' className='padding-top'>
-            <div className='container'>
-                <div className='about-text'>
-                    <h1>About</h1>
-                    <p>My name is Simon. I'm a web developer and creator. I like to build fast responsive user experiences.</p>
-                    <h3>Certs</h3>
-                    <ul>
-                        <li>Micosoft Cert: Programming in HTML5 with JavaScript and CSS3</li>
-                        <li>Microsoft MTA: Software Development Fundamentals - Certified 2017</li>
-                        <li>Level 4 - Certificate in lifelong learning sector</li>
-                        <li>Bachelor of Arts (B.A.) - Music Technology</li>
-                        <li>Grade 8 Electric Guitar</li>
-                    </ul>
-                    <h3>Tech stack</h3>
-                    <p><strong>Web</strong></p>
-                    <ul>
-                        <li>React</li>
-                        <li>JavaScript</li>
-                        <li>php</li>
-                        <li>npm</li>
-                        <li>gulp</li>
-                        <li>Laravel</li>
-                        <li>Sass</li>
-                        <li>git</li>
-                        <li>mac pro</li>
-                    </ul>
-                    {/* <p><strong>Music</strong></p>
-                    <ul>
-                        <li>Pre sonus: Studio one</li>
-                        <li>plugins: waves, komplete, pre-sonus</li>
-                        <li>Native instruments: Maschine 2</li>
-                        <li>Moog - Sub phatty</li>
-                        <li>Fender Strat</li>
-                        <li>Les paul studio</li>
-                        <li>Universal Audio: Apollo twin mk2 quad core audio interface</li>
-                        <li>Boss, MXR, Electro Harmonix guitar pedals.</li>
-                        <li>Dave Smith Prophet 08</li>
-                        <li>Roland JU06</li>
-                    </ul> */}
-                </div>
+            <div className='container-fluid'>
+                <h1>CV</h1>
+                <section className='cv-section'>
+                    <CvHeading heading='Work' />
+                    <CvEntry
+                        year='2020 - CURRENT'
+                        name='Fusemetrix, Web Developer'
+                        place='Milton Keynes, UK'
+                    />
+                    <CvEntry
+                        year='2018 - 2020'
+                        name='FMC, Web Developer'
+                        place='Shenly, UK'
+                    />
+                    <CvEntry
+                        year='2017 - 2018'
+                        name='Freelance, Web Developer'
+                        place='Hemel Hempstead, UK'
+                    />
+                    <CvEntry
+                        year='2010 - 2017'
+                        name='SimonGuitar, Peripatectic teacher'
+                        place='Hertfordshire, UK'
+                    />
+                </section>
+                <section className='cv-section'>
+                    <CvHeading heading='Education' />
+                    <CvEntry
+                        year='2004 - 2007'
+                        name='Bachelor of Arts (BA Hons), Creative Music Technology, 2.1'
+                        place='The University of Hull'
+                    />
+                    <CvEntry
+                        year='2009 - 2010'
+                        name='British Academy of New Music, CTTLS'
+                        place='London, UK'
+                    />
+                </section>
+                <section className='cv-section'>
+                    <CvHeading heading='Certifications' />
+                    <CvEntry
+                        year='2017'
+                        name='Microsoft MTA Software Development Fundamentals'
+                        place='London, UK'
+                    />
+                    <CvEntry
+                        year='2017'
+                        name='Microsoft MCSA Programming in HTML5 with JavaScript and CSS3'
+                        place='London, UK'
+                    />
+                </section>
+                
+                
+
                 
             </div>
         </section>
+    )
+}
+
+const CvHeading = (props) => {
+    return (
+        <div className='cv-heading'>
+            <h2>{props.heading}</h2>
+        </div>
+    )
+}
+
+const CvEntry = (props) => {
+    return (
+        <div className='cv-entry'>
+            <div className='cv-entry__year cv-entry__col'>{props.year}</div>
+            <div className='cv-entry__name cv-entry__col'>{props.name}</div>
+            <div className='cv-entry__place cv-entry__col'>{props.place}</div>
+        </div>
     )
 }

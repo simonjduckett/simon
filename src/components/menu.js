@@ -25,7 +25,7 @@ export const Menu = (props) => {
                                 className='menu-link'
                                 to={'/about'}
                                 onClick={props.toggleMenu}
-                            >About
+                            >CV
                             </Link>
                         </p>
                     </div>
