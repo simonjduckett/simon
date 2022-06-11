@@ -19,7 +19,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      firstload: true
+      firstload: false
     }
 
     this.logfirstload = this.logfirstload.bind(this);
@@ -38,6 +38,8 @@ class App extends Component {
 
     menu.classList.toggle("show");
     ham.classList.toggle("change");
+
+    document.body.classList.toggle("noscroll");
   }
 
   logfirstload(){
@@ -49,14 +51,16 @@ class App extends Component {
     return (
       <div className="App">
         <HashRouter>
-          <Topbar toggleMenu={this.toggleMenu} firstload={this.state.firstload} />
-          <Menu toggleMenu={this.toggleMenu} />
-          <Switch>
-            <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} mobile={mobile} /> }} />
-            <Route path='/projects' render={() => { return <Projects /> }} />
-            <Route path='/about' render={() => { return <About /> }} />
-            <Route component={PageNotFound} />
-          </Switch>
+          <div className='container-fluid'>
+            <Topbar toggleMenu={this.toggleMenu} firstload={this.state.firstload} />
+            <Menu toggleMenu={this.toggleMenu} />
+            <Switch>
+              <Route exact path='/' render={() => { return <Home logfirstload={this.logfirstload} firstload={this.state.firstload} mobile={mobile} /> }} />
+              <Route path='/projects' render={() => { return <Projects /> }} />
+              <Route path='/about' render={() => { return <About /> }} />
+              <Route component={PageNotFound} />
+            </Switch>
+          </div>
         </HashRouter>
       </div>
     );

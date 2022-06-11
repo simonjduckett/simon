@@ -3,6 +3,13 @@ export default {
         {
             "web": [
                 {
+                    "name": "Task Manager",
+                    "description": "Task Manager App built with React/Redux",
+                    "type": "react",
+                    "img": require('./assets/images/task.png'),
+                    "link": "https://simonjduckett.github.io/Task-Manager/"
+                },
+                {
                     "name": "Simon's store",
                     "description": "Front end for a clothing store",
                     "type": "react",
@@ -11,7 +18,7 @@ export default {
                 },
                 {
                     "name": "Mystery Box 3",
-                    "description": "Retro video game",
+                    "description": "Retro video game built with vanilla js",
                     "type": "javascript",
                     "img": require('./assets/images/mystery.png'),
                     "link": "https://simonjduckett.github.io/Mystery-Box-3/"
@@ -21,22 +28,22 @@ export default {
                     "description": "Site template for a music artist",
                     "type": "php",
                     "img": require('./assets/images/artistbox.png'),
-                    "link": "https://www.simonguitar.co.uk/Artist/"
+                    "link": "http://www.simonguitar.co.uk/Artist/"
+                },
+                {
+                    "name": "Timetable generator",
+                    "description": "App to generate student timetables",
+                    "type": 'react',
+                    "img": require('./assets/images/timetable.png'),
+                    "link": "https://codesandbox.io/s/423ljr9v70"
                 },
                 // {
-                //     "name": "Timetable generator",
-                //     "description": "App to generate student timetables",
-                //     "type": 'react',
-                //     "img": require('./assets/images/timetable.png'),
-                //     "link": "https://codesandbox.io/s/423ljr9v70"
-                // },
-                {
-                    "name": "Katy's Dance Academy",
-                    "description": "Website for local dance school",
-                    "type": "wordpress",
-                    "img": require('./assets/images/dance.png'),
-                    "link": "https://www.katysdanceacademy.co.uk/"
-                }
+                //     "name": "Katy's Dance Academy",
+                //     "description": "Website for local dance school",
+                //     "type": "wordpress",
+                //     "img": require('./assets/images/dance.png'),
+                //     "link": "https://www.katysdanceacademy.co.uk/"
+                // }
             ],
             "music": [
                 {

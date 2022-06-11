@@ -35,7 +35,7 @@ export const Topbar = (props) => {
 
     return (
         <div id='topbar'>
-            <div className='container'>
+            <div className='d-flex justify-content-between'>
                 <span id='logo' className='brand opacity-1' style={logostyles} onClick={removeit}><Link className='light' to={'/'}><img width='160' src={LogoBlack} /></Link></span>
                 <div className='menu'>
                     <span id='ham' onClick={props.toggleMenu}>
