@@ -11,33 +11,28 @@ export class Projects extends Component {
     }
 
     render() {
-        let web = data.projects[0].web.length
-        let music = data.projects[0].music.length
-        let education = data.projects[0].education.length
+        let dataKeys = Object.keys(data.projects[0])
         return (
             <div id='projects' className='padding-top'>
                     <div className='container-fluid'>
                         <h1>Projects</h1>
                         <div id='subnav'>
-                        <NavLink 
-                            activeClassName='activeNavLink' 
-                            className='proj-menu-link' 
-                            to={'/projects/web'}>Web ({web})
-                        </NavLink>
-                        {/* <NavLink 
-                            activeClassName='activeNavLink' 
-                            className='proj-menu-link' 
-                            to={'/projects/music'}>Music ({music})
-                        </NavLink>
-                        <NavLink
-                            activeClassName='activeNavLink'
-                            className='proj-menu-link'
-                            to={'/projects/education'}>Education ({education})
-                        </NavLink> */}
+                            {dataKeys.map((project, i) => {
+                                return (
+                                        <NavLink
+                                            activeClassName='activeNavLink'
+                                            className='proj-menu-link'
+                                            to={'/projects/'+project}>{project} ({data.projects[0][project].length})
+                                        </NavLink>
+                                )
+                            })}
                             <hr />
-                            <Route path='/projects/web' render={() => { return <Projecttable data={data.projects[0].web} /> }} />
-                            <Route path='/projects/music' render={() => { return <Projecttable data={data.projects[0].music} /> }} />
-                            <Route path='/projects/education' render={() => { return <Projecttable data={data.projects[0].education} /> }} />
+                            {dataKeys.map((project, i) => {
+                                let dataUrl = data.projects[0][project]
+                                return (
+                                        <Route path={'/projects/'+project} render={() => { return <Projecttable data={dataUrl} /> }} />
+                                )
+                            })}
                         </div>
                     </div>
             </div>
