@@ -6,7 +6,7 @@ const MiniNav = () => {
         <div id='mini-nav'>
             <Link
                 className='mini-nav-link'
-                to={'/projects/web'}
+                to={'/projects/apps'}
                 >Projects
             </Link>
             {/* <a

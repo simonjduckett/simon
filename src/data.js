@@ -8,6 +8,13 @@ export default {
                     "type": "react",
                     "img": require('./assets/images/task.png'),
                     "link": "https://simonjduckett.github.io/Task-Manager/"
+                },
+                {
+                    "name": "Events Calendar",
+                    "description": "Opening times & Special Events Calendar with user interface",
+                    "type": "javascript",
+                    "img": require('./assets/images/events.png'),
+                    "link": "https://www.simonguitar.co.uk/eventscalendar"
                 }
             ],
             "Websites": [
@@ -23,7 +30,7 @@ export default {
                     "description": "Site template for a music artist",
                     "type": "php",
                     "img": require('./assets/images/artistbox.png'),
-                    "link": "http://www.simonguitar.co.uk/Artist/"
+                    "link": "https://www.simonguitar.co.uk/Artist/"
                 },
                 
                 {
