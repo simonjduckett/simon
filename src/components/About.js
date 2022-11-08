@@ -14,7 +14,12 @@ export const About = () => {
                 <section className='cv-section'>
                     <CvHeading heading='Work' />
                     <CvEntry
-                        year='2020 - CURRENT'
+                        year='2022 - CURRENT'
+                        name='ReallyMoving, Front End Developer'
+                        place='St Albans, UK'
+                    />
+                    <CvEntry
+                        year='2020 - 2022'
                         name='Fusemetrix, Web Developer'
                         place='Milton Keynes, UK'
                     />
